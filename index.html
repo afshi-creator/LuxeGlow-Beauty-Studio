@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeGlow Beauty Studio</title>
+
+    <link rel="icon" href="favicon.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">LuxeGlow</div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="btn">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+    <img src="hero.jpg" alt="Beauty Salon" class="hero-img">
+
+    <div class="hero-content">
+        <h1>Enhancing Your Natural Beauty</h1>
+        <p>Professional beauty services tailored just for you.</p>
+        <a href="#contact" class="btn">Book Appointment</a>
+    </div>
+   </section>
+
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+
+        <div class="service-cards">
+            <div class="card">
+                <h3>Hair Styling</h3>
+                <p>Trendy cuts, coloring, and treatments by professionals.</p>
+            </div>
+
+            <div class="card">
+                <h3>Makeup</h3>
+                <p>Party, event, and bridal makeup using premium products.</p>
+            </div>
+
+            <div class="card">
+                <h3>Facials & Skin Care</h3>
+                <p>Glow-enhancing facials tailored to your skin type.</p>
+            </div>
+
+            <div class="card">
+                <h3>Bridal Packages</h3>
+                <p>Complete beauty solutions for your special day.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY SECTION ===== -->
+    <section id="gallery" class="gallery">
+        <h2>Our Work</h2>
+
+        <div class="gallery-grid">
+            <img src="hair.jpg" alt="Hair Styling">
+            <img src="makeup.jpg" alt="Makeup">
+            <img src="facial.jpg" alt="Facial">
+            <img src="bridal.jpg" alt="Bridal Makeup">
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            LuxeGlow Beauty Studio is dedicated to enhancing your confidence
+            through expert beauty services. Our experienced staff, hygienic
+            environment, and premium products ensure you always look and feel your best.
+        </p>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+        <h2>Book an Appointment</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <select required>
+                <option value="">Select Service</option>
+                <option>Hair Styling</option>
+                <option>Makeup</option>
+                <option>Facial</option>
+                <option>Bridal Package</option>
+            </select>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+           <p class="whatsapp">
+            Or book instantly on  
+            <a href="https://wa.me/923001234567" target="_blank">WhatsApp</a>
+        </p>
+
+        <iframe 
+          src="https://www.google.com/maps?q=Karachi&output=embed"
+          width="100%" 
+          height="250" 
+          style="border:0; border-radius:12px; margin-top:20px;"
+          loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2026 LuxeGlow Beauty Studio. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
